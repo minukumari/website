@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>home</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+    </head>
+  <body>
+<header>
+<div id="header">
+    <img src="http://www.shopbelfast.info/uploads/4/5/8/6/45863979/6101675.png?1083" alt="painting logo" class="logo">
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+  <ul>
+  <li><a href="home.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="artist.html">ARTIST</a></li>
+  <li class="dropdown"><a href="learn.html" class="dropbtn">LEARN</a>
+  <div class="dropdown-content">
+    <a href="oil_painting.html">oil painting</a>
+    <a href="watercolor_painting.html">watercolor painting</a>
+    <a href="pastel_painting.html">pastel painting</a>
+    <a href="acrylic_painting.html">acrylic painting</a>
+    <a href="charcoal_painting.html">charcoal painting</a>
+  </li>
+  <li><a href="login.html">LOGIN</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+</div></nav></header>
+  <div class="slideshow-container mar" >
+
+  <div class="mySlides fade">
+  <img src="https://media.timeout.com/images/102089789/image.jpg" style="width:980px;height:700px;">
+  </div>
+
+  <div class="mySlides fade">
+   <img src="http://webneel.com/daily/sites/default/files/images/daily/11-2012/Leonid%20Afremov%20color%20(18).jpg" style="width:980px;height:700px;">
+  </div>
+  <div class="mySlides fade">
+     <img src="http://paintingsgifts4u.com/images/culture4.jpg" style="width:980px;height:700px;">
+    </div>
+    <div class="mySlides fade">
+       <img src="https://i.ytimg.com/vi/pQ-uc6CBdwA/hqdefault.jpg" style="width:980px;height:700px;">
+      </div>
+      <div class="mySlides fade">
+         <img src="http://www.thisiscolossal.com/wp-content/uploads/2017/03/Stevnn17_11.jpg" style="width:980px;height:700px;">
+        </div>
+  <br>
+  <div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  </div>
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000);
+  }
+  </script></div>
+<h1 class="h1" align="center"> Painting</h1>
+<h2 class="h2">Painting is the practice of applying paint, pigment, color or other medium[1] to a solid surface (support base).
+  The medium is commonly applied to the base with a brush, but other implements, such as knives, sponges, and airbrushes, can be used.
+
+Painting is a mode of creative expression, and the forms are numerous. Drawing, gesture (as in gestural painting), composition, narration
+ (as in narrative art), or abstraction (as in abstract art), among other aesthetic modes, may serve to manifest the expressive and conceptual
+  intention of the practitioner.[2] Paintings can be naturalistic and representational (as in a still life or landscape painting), photographic,
+ abstract, narrative, symbolistic (as in Symbolist art), emotive (as in Expressionism), or political in nature (as in Artivism).</h2>
+ <footer>
+ <div class="footer">
+ <div align="center">
+           <h3 class=cont>contact me in the following Email: minuray10@gamil.com</h3>
+   <a target="_blank" title="find us on Facebook" class="border" href="https://www.facebook.com/minu.kumari.31542"><img alt="follow me on facebook" src="http://www.freeiconspng.com/uploads/facebook-logo-3.png" height=45 border=0></a>
+            <a target="_blank" title="find us on github"   
+      class="border" href="https://github.com/minukumari"><img alt="follow me on github" src="http://img11.deviantart.net/b290/i/2012/223/4/3/github_flurry_ios_style_icon_by_flakshack-d5ariic.png" height=45 border=0></a>
+            <a target="_blank" title="contact me on gmail" class="border" href="http://www.gmail.com"><img alt="contact me on gmail" src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Gmail-icon.png" height=45 border=0></a>
+            <a target="_blank" title="find us on linkedin" class="border" href="https://www.linkedin.com/in/minu-kumari-55356313a/"><img alt="follow me on linkedin" src="https://qph.ec.quoracdn.net/main-qimg-1714929a97119ca71a0652d464b8a200" height=45 border=0>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
